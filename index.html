@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Hub - รวมเว็บดูหนังและอนิเมะ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Streaming<span>Hub</span></div>
+        <p>ศูนย์รวมเว็บดูหนังและอนิเมะยอดนิยม ฟรีไม่มีสะดุด</p>
+    </header>
+
+    <div class="container">
+        <div class="tab-container">
+            <button class="tab-btn active" onclick="switchTab('all')">ทั้งหมด</button>
+            <button class="tab-btn" onclick="switchTab('anime')">🎬 อนิเมะ</button>
+            <button class="tab-btn" onclick="switchTab('movie')">🍿 ดูหนัง</button>
+        </div>
+
+        <main class="grid-container" id="links-grid">
+            
+            <div class="card anime">
+                <div class="card-badge">Anime</div>
+                <h3>AnimeRuka</h3>
+                <p>รวมอนิเมะพากย์ไทย ซับไทย อัปเดตตอนใหม่ล่าสุดก่อนใคร</p>
+                <a href="https://animeruka.com/" target="_blank" class="visit-btn">เข้าสู่เว็บไซต์</a>
+            </div>
+
+            <div class="card anime">
+                <div class="card-badge">Anime</div>
+                <h3>Anifume</h3>
+                <p>ดูอนิเมะออนไลน์ฟรี คมชัดระดับ HD โหลดไว ไม่มีโฆษณาคั่นให้กวนใจ</p>
+                <a href="https://anifume.com/" target="_blank" class="visit-btn">เข้าสู่เว็บไซต์</a>
+            </div>
+
+            <div class="card anime">
+                <div class="card-badge">Anime</div>
+                <h3>FairyAnime</h3>
+                <p>แหล่งรวบรวมอนิเมะทุกยุคทุกสมัย ทั้งเรื่องดังและเรื่องนอกกระแส</p>
+                <a href="https://fairyanime.net/" target="_blank" class="visit-btn">เข้าสู่เว็บไซต์</a>
+            </div>
+
+            <div class="card movie">
+                <div class="card-badge movie-badge">Movie</div>
+                <h3>24-HDS</h3>
+                <p>ดูหนังออนไลน์ 24 ชั่วโมง หนังใหม่ชนโรง ซีรีส์ดัง ครบจบในที่เดียว</p>
+                <a href="https://www.24-hds.com/" target="_blank" class="visit-btn">เข้าสู่เว็บไซต์</a>
+            </div>
+
+            <div class="card movie">
+                <div class="card-badge movie-badge">Movie</div>
+                <h3>24HD</h3>
+                <p>เว็บดูหนังความละเอียดสูง ซับไทย พากย์ไทย เสียง Master แท้</p>
+                <a href="https://www.24hd.net/" target="_blank" class="visit-btn">เข้าสู่เว็บไซต์</a>
+            </div>
+
+            <div class="card movie">
+                <div class="card-badge movie-badge">Movie</div>
+                <h3>NungFree4K</h3>
+                <p>ที่สุดของความคมชัดระดับ 4K ดูฟรีทั้งหนังฝรั่ง หนังไทย และซีรีส์เกาหลี</p>
+                <a href="https://nungfree4k.com/" target="_blank" class="visit-btn">เข้าสู่เว็บไซต์</a>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 StreamingHub. Created for personal collection.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
